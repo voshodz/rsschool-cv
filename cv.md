@@ -24,6 +24,7 @@ I started to learn in RS School and i have fun:)
 ```javascript
    function helloWorld() {
        console.log("Hello, world")
+       console.log("!")
    }
 ```
 ---
