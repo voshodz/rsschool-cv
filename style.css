@@ -1,3 +1,53 @@
-h1: {
-    color:-webkit-scrollbar-corner
+body {
+    background-color: #e5c5c5;
+    max-height: 100%;
+    max-width: 92%;
+    padding: 2rem;
+    font-size: 18px;
+}
+.main {
+    background-color: #a1c8f1;
+    color: black;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left__header {
+    width: 35%;
+    background-color: rgb(189, 85, 85);
+}
+
+.right__header {
+    width: 65%;
+    font-size: 48px;
+    font-family: 'Graduate', cursive;
+    background-color: white;
+
+}
+
+.photo {
+
+}
+
+
+
+.left__column {
+    width: 35%;
+    background-color: rgb(189, 85, 85);
+}
+
+.right__column {
+    width: 65%;
+    background-color: white;
+}
+.footer {
+    height: 45px;
+    background-color: rgba(44,42,42,1);
+    padding-left: 150px;
+    font-size: 2rem;
 }
