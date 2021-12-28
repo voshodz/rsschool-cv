@@ -19,16 +19,30 @@ body {
 
 .left__header {
     width: 35%;
-    background-color: rgb(189, 85, 85);
+    background-color: rgb(194, 21, 86);
 }
 
 .right__header {
     width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-size: 48px;
     font-family: 'Graduate', cursive;
     background-color: white;
-
 }
+.__name {
+    color: #a1c8f1;
+    font-size: 5rem;
+    font-weight: bold;
+    padding-left: 50px;
+}
+.__position {
+    font-size: 2rem;
+    color: yellowgreen;
+    padding-left: 50px;
+}
+
 
 .photo {
 
