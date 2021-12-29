@@ -4,7 +4,7 @@ body {
     max-width: 70%;
     padding: 2rem;
     font-size: 18px;
-    margin-left: 13rem;
+    margin-left: 9rem;
 }
 .main {
     background-color: #a1c8f1;
@@ -35,14 +35,15 @@ body {
 }
 .__name {
     color: #a1c8f1;
-    font-size: 5rem;
-    font-weight: bold;
+    font-size: 6rem;
+    font-weight: 900;
     padding-left: 50px;
 }
 .__position {
-    font-size: 2rem;
+    font-size: 2.3rem;
+    font-weight: 600;
     color: yellowgreen;
-    padding-left: 50px;
+    padding-left: 180px;
 }
 
 
@@ -72,6 +73,8 @@ body {
     font-size: 1.6rem;
     color: #423b3b;
     font-family: Brush Script MT, cursive;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .underlined {
     width: 100%;
