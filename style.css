@@ -19,7 +19,7 @@ body {
 
 .left__header {
     width: 35%;
-    background-color: rgb(194, 21, 86);
+    background-color: #be5809;
 }
 
 .right__header {
@@ -52,7 +52,8 @@ body {
 
 .left__column {
     width: 35%;
-    background-color: rgb(194, 21, 86);
+    background-color: #be5809;
+    font-family: 'Graduate', cursive;
 }
 
 .right__column {
