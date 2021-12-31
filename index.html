@@ -1,17 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
  <head>
   <meta charset="utf-8" />
-  <title>HTML5</title>
-  <!--[if IE]>
-   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
   <style>
    article, aside, details, figcaption, figure, footer,header,
    hgroup, menu, nav, section { display: block; }
   </style>
  </head>
  <body>
-  <p>Привет, мир</p>
+
+  <header class="header">
+      <div class="left__header">
+          <figure>
+              <img src="images/anime.jpg" alt="avatar" class="photo">
+          </figure>
+      </div>
+      <div class="right__header">
+          <div class="__name"><h1>ALEX N</h1></div>
+          <div class="__position"><span>JUNIOR FRONTEND DEVELOPER</span></div>
+      </div>
+
+
+  </header>
+  <main class="main">
+      <section class="left__column">
+          <div class="left__column__information">
+              <div>
+                  <h2>CONTACTS</h2>
+                  <div class="underlined__white"></div>
+                  <h4>PHONE: +79997776677</h4>
+                  <h4>TELEGRAM: plavnik1</h4>
+                  <h4>GITHUB: github.com/voshodz</h4>
+              </div>
+              <div>
+                  <h2>SKILLS</h2>
+                  <div class="underlined__white"></div>
+                  <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>Javascript basic</li>
+                  </ul>
+
+              </div>
+              <div>
+                  <h2>Foreign languages</h2>
+                  <div class="underlined__white"></div>
+                  <h4>ENGLISH(A2+)</h4>
+                  <h4>RUSSIAN(native)</h4>
+              </div>
+          </div>
+      </section>
+      <section class="right__column">
+
+         <div class="right__column__information">
+             <div>
+                 <h2>
+                     <span>ABOUT ME</span>
+                 </h2>
+             </div>
+             <div class="underlined"></div>
+             <div>
+                 <span>
+                     Hello, I want to become Frontend Developer!
+                     I am studying at RS School now
+                     and I like do beautiful interactive sites.
+                 </span>
+             </div>
+
+             <div><h2>EDUCATION</h2></div>
+             <div class="underlined"></div>
+             <div>Coursera: HTML, CSS and Javascript, Yaakov Chaikin</div>
+             <div>Youtube Freecodecamp: HTML, CSS basics</div>
+
+
+             <div class="code__example">
+                 <h2>Code example</h2>
+                 <div class="underlined"></div>
+                 <code>
+                     new_list = list(map(lambda x: x * 2 , my_list))
+                 </code>
+             </div>
+             <div><h2>Hobbies</h2></div>
+             <div class="underlined"></div>
+             <div>
+                 <ul>
+                     <li>Chess</li>
+                     <li>Reading Books</li>
+                     <li>Sport</li>
+                     <li>Learning languages</li>
+                 </ul>
+             </div>
+
+         </div>
+      </section>
+  </main>
+  <footer class="footer">
+      <a class="my__github" href="https://github.com/voshodz">
+            <img src="./icons/github.svg" alt="github icon" width="50" height="70">
+      </a>
+      <div class="year__icon">2021-2022</div>
+      <a class="rs__icon" href="https://rs.school/js">
+          <img src="icons/rsschool.svg" alt="RS icon" width="180" height="70">
+      </a>
+  </footer>
  </body>
 </html>
