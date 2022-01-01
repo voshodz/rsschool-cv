@@ -6,6 +6,12 @@ body {
     font-size: 18px;
 
 }
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 .main {
     background-color: #a1c8f1;
     color: black;
