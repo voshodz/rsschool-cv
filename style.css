@@ -1,0 +1,114 @@
+
+
+body {
+    background-color: #dae0da;
+    padding: 3rem;
+    font-size: 18px;
+
+}
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main {
+    background-color: #a1c8f1;
+    color: black;
+    display: flex;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left__header {
+    width: 35%;
+    background-color: rgb(91, 90, 90);
+}
+
+.right__header {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Graduate', cursive;
+    background-color: white;
+}
+.__name {
+    color: #a1c8f1;
+    font-size: 2rem;
+    font-weight: 900;
+    padding-left: 50px;
+}
+.__position {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: yellowgreen;
+    padding-left: 180px;
+}
+
+
+.photo {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.left__column {
+    width: 35%;
+    background-color: rgb(91, 90, 90);
+    color: #f8f3f3;
+    font-family: 'Graduate', cursive;
+    font-size: 1.2rem;
+}
+.left__column__information {
+    padding-left: 50px;
+}
+
+.right__column {
+    width: 65%;
+    background-color: white;
+}
+.right__column__information {
+    font-size: 1.6rem;
+    color: #423b3b;
+    font-family: Brush Script MT, cursive;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.underlined {
+    width: 100%;
+    height: 0.06rem;
+
+    margin-bottom: 20px;
+    background-color: black;
+}
+.underlined__white {
+    width: 65%;
+    height: 0.06rem;
+
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+
+.footer {
+    background-color: rgb(91, 90, 90);
+    display: flex;
+
+    justify-content: space-between;
+    padding-left: 150px;
+    font-size: 2rem;
+}
+.year__icon {
+    font-size: 2.4rem;
+    color: white;
+    font-weight: 400;
+    padding-top: 20px;
+
+}
